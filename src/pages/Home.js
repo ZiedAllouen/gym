@@ -3,8 +3,10 @@ import Exercises from '../components/Exercises';
 import HeroBanner from '../components/HeroBanner';
 import SearchExercise from '../components/SearchExercise';
 const Home = () => {
+  
   const [bodyPart,setBodyPart]=useState('all')
   const [exercises,setExercises] = useState([]);
+  console.log(bodyPart)
   return (
     <div>
       <HeroBanner/>
