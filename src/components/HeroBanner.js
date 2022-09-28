@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box,Stack,Typography,Button } from '@mui/material'
-import he from '../assets/he.jpg'
+
 import { CssBaseline } from '@material-ui/core';
 
 const HeroBanner = () => {
