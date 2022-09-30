@@ -49,7 +49,7 @@ exercices you should know
       </Box>
       <Box sx={{position:'relative',width:'100%',p:'20px'}}>
         <HorizontalScrollbar data={bodyParts}
-        BodyPart={BodyPart} setBodyPart={setBodyPart} />
+        BodyPart={BodyPart} setBodyPart={setBodyPart} isBodyParts />
       </Box>
     </Stack>
   )
