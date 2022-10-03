@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
-import Exercises from '../components/Exercises';
-import HeroBanner from '../components/HeroBanner';
-import SearchExercise from '../components/SearchExercise';
+import Exercises from '../components/ExercisePage/Exercises';
+import HeroBanner from '../components/ExercisePage/HeroBanner';
+import SearchExercise from '../components/ExercisePage/SearchExercise';
 const Home = () => {
   
   const [bodyPart,setBodyPart]=useState('all')

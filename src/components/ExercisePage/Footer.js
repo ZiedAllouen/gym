@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import lg from '../assets/lg.png'
+import lg from '../../assets/lg.png'
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#ff52">
