@@ -34,3 +34,42 @@ font-weight:bold;
     flex:1;
     position: relative;
 }
+
+.right-c>img{
+position: absolute;
+width: 17rem;
+height: 20rem;
+object-fit: cover;
+right: 8rem;
+top:2rem;
+}
+.right-c>:nth-child(1){ 
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border:2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top:0.9rem;
+}
+
+.right-c>:nth-child(2){ 
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top:4rem;
+    background: var(--planCard);
+}
+.arrow{
+display: flex;
+gap:2rem;
+position: absolute;
+bottom: 1rem;
+left:8rem
+}
+
+.arrow>img{
+    cursor: pointer;
+    width: 1.5rem;
+}

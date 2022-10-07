@@ -19,10 +19,12 @@ const Coaches = () => {
         </span>
       </div>
       <div className='right-c'>
+        <div></div>
+        <div></div>
         <img src={CoachesData[selected].image } />
         <div className='arrow'>
-          <img src={leftArrow } />
-          <img src={rightArrow } />
+          <img onClick={()=>{selected===0?setSelected(tLength - 1):setSelected((prev)=>prev-1)} } src={leftArrow } />
+          <img  onClick={()=>{selected===tLength - 1?setSelected(0):setSelected((prev)=>prev+1)} } src={rightArrow } />
         </div>
       </div>
     </div>
