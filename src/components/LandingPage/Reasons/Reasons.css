@@ -72,3 +72,12 @@
  .details-r>div>span{
 margin-top: 0.7rem;
  }
+
+ .blur-r{
+    bottom: 270;
+    right: 0;
+    width: 26rem;
+    height: 18rem; 
+    filter: blur(200px);
+    background:rgb(255,115,0);
+}

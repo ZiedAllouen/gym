@@ -189,3 +189,10 @@ body {
 .btn:hover{
   cursor: pointer;
 }
+.blur{
+  background-color: rgba(253,120,43,0.6);
+  position: absolute;
+  border-radius: 50%;
+  filter:blur(150px);
+  z-index: 2;
+}

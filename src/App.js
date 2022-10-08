@@ -13,13 +13,13 @@ import Landing from './pages/Landing';
 const App = () => {
   return (
     <Box width="400px" sx={{width:{xl:'1488px'}}} m="auto">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Routes>
       <Route path ="/" element={<Landing/>} />
         <Route path ="/exercise" element={<Exercise/>} />
         <Route path="/exercise/:id" element={<ExerciseDetail/>}/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </Box>
   )
 }

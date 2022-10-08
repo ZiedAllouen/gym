@@ -42,7 +42,7 @@ z-index: 2;
 .best-ad>div{
 position: absolute;
 background-color:var(--orange) ;
-width: 4.5rem;
+width: 4.7rem;
 height: 80% ;
 left: 8px;
 border-radius: 3rem;
@@ -84,6 +84,7 @@ gap:2rem;
 .figures>div>span:nth-of-type(2){
     color: var(--gray);
     text-transform: uppercase;
+    margin-left: 1rem;
 }
 
 
@@ -120,21 +121,25 @@ top:7rem;
 }
 .heart-rate>img{
     width: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
 }
 .heart-rate>:nth-child(2){
 color:var(--gray);
 margin-left: 0.5rem;
 }
-
 .heart-rate>:nth-child(3){
+    color:var(--gray);
+    margin-left: 1rem;
+    }
+
+.heart-rate>:nth-child(4){
     color:white ;
     font-size: 1.5rem;
     }
 
 .hero-image{
 position:absolute;
-top:10rem;
+top:13rem;
 right:8rem;
 width:23rem;
 z-index: 2;
@@ -172,5 +177,10 @@ width: 15rem;
 
 .calories > div >:nth-child(2){
     color:white;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
+}
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left:0;
 }
