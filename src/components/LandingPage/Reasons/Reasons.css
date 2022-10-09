@@ -81,3 +81,31 @@ margin-top: 0.7rem;
     filter: blur(200px);
     background:rgb(255,115,0);
 }
+
+
+/* responsive */
+@media screen and (max-width:768px) {
+    .Reasons{
+        flex-direction: column;
+    }
+    .left-r{
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+    .left-r>:nth-child(1){
+        width: 7rem;
+        height: 17rem;
+    }
+    .left-r>:nth-child(2){
+        width: 15rem;
+        height: 10rem;
+    }
+    .left-r>:nth-child(3){
+        width: 7rem;
+        height: 6rem;
+    }
+    .left-r>:nth-child(4){
+        width: 6rem;
+        height: 6rem;
+    }
+}
