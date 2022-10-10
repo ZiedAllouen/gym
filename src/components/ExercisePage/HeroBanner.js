@@ -1,7 +1,15 @@
 import React,{ useState, useEffect } from 'react'
 import { Box,Stack,Typography,Button } from '@mui/material'
 
-import { CssBaseline } from '@material-ui/core';
+import Header from '../../components/LandingPage/Header/Header';
+import './Hero.css'
+import Heart from '../../assets/heart.png'
+import HeroImg from '../../assets/back-img.png'
+import HeroBack from '../../assets/hero_image_back.png'
+import calories from '../../assets/calories.png';
+import NumberCounter from 'number-counter';
+import {motion} from 'framer-motion';
+
 
 const HeroBanner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -10,7 +18,7 @@ const HeroBanner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [ 'Sweat”', 'Blood”', 'Vomit”' ];
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -44,25 +52,104 @@ const HeroBanner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
-
+  const transition={type: 'spring', duration:3}
+  const mobile=window.innerWidth <= 768 ? true : false;
   return (
-    <Box className='App' sx={{ mt: { lg: '100px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px" backgroundIm>
-    <Typography color="#FF2625" fontWeight="600" fontSize="26px">Tam Fitness Club</Typography>
-    <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px' } }} mb="23px" mt="30px" >
-    “You shall gain, but you shall pay with <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Sweat"", "Blood"", "Vomit"" ]'><span className="wrap">{text}</span></span>  <br />
-    Pavel Tsatsouline
-    </Typography>
-    <Typography fontSize="22px" fontFamily="Alegreya" lineHeight="35px">
-      Check out the most effective exercises personalized to you
-    </Typography>
-    <Stack>
-      <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Explore Exercises</a>
-    </Stack>
-    {/* <Typography fontWeight={600} color="#FF2625" sx={{ opacity: '0.8', display: { lg: 'block', xs: 'none' }, fontSize: '200px' }}>
-      Exercise
-    </Typography> */}
+    <div className='App' >
+
+
+
+    <div className='hero'>
+      <div className='blur hero-blur'></div>
+      <div className='left-h'>
+        <Header/>
+        <div className='best-ad'>
+          <motion.div
+          initial={{left: mobile? "148":"185px"}}
+          whileInView={{left:'8px'}}
+          transition={{...transition,type:'tween'}}
+          ></motion.div>
+         <span> the best fit web app in tunisia </span>
+        </div>
+
+        <div className='hero-text'>
+          <div>
+          <span>You shall </span>
+            <span className='stroke-text'>Gain </span> 
+            <span>but</span>
+            </div> 
+            <div> 
+              <span> you shall </span>
+              <span className='stroke-text'>pay </span>
+              <span> with </span>
+              <span className='stroke-text'><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Sweat"", "Blood"", "Vomit"" ]'><span className="wrap">{text}</span></span></span> 
+            </div>
+            <div >
+              <span> "Pavel Tsatsouline"</span>
+            </div>
+            
+        </div>
+
+{/* figures */}
+      <div className='figures' >
+        <div>
+          <span>
+          <NumberCounter end={400} start={300} delay='4' preFix="+" />
+             </span> 
+          <span>Lower body Exercises</span>
+        </div>
+        <div>
+          <span><NumberCounter end={800} start={700} delay='4' preFix="+" /> </span> 
+          <span>upper body Exercises</span>
+        </div>
+        <div>
+          <span><NumberCounter end={130} start={100} delay='4' preFix="+" /> </span> 
+          <span>cardio Exercises</span>
+        </div>
+
+      </div>
+      {/* hero buttons */}
+      <div className='hero-buttons'>
+        <button className='btn'><a href="#exercises" >Explore Exercises</a></button>
+        
+      </div>
+      </div>
+      <div className='right-h'>
+        <motion.div 
+        initial={{right:"-1rem"}}
+        whileInView={{right:"4rem"}}
+        transition={transition}
+        className='heart-rate'>
+          <img src={Heart} />
+          <span>Improve your <br/> </span>
+          <span>Heart Rate</span>
+          <span>100 bpm</span>
+        </motion.div>
+        {/* hero images */}
+        <img src={HeroImg} className='hero-image'/>
+        <motion.img 
+        initial={{right:'11rem'}}
+        whileInView={{right:"20rem"}}
+        transition={transition}
+        src={HeroBack} className='hero-image-back'/>
+
+        {/* calories */}
+        <motion.div 
+        initial={{right:'37rem'}}
+        whileInView={{right:"28rem"}}
+        transition={transition}
+        className='calories'>
+          <img src={calories} />
+          <div>
+            <span>Burn Calories </span> 
+            <span> Manifest ABS</span>
+          </div>
+        </motion.div>
+      </div>
+    </div>
+  
     
-    </Box>
+    </div>
   )
 }
 

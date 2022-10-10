@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../../LandingPage/Header/Header';
 import './Hero.css'
 import Heart from '../../../assets/heart.png'
 import HeroImg from '../../../assets/back-img.png'
@@ -26,11 +26,13 @@ const Hero = () => {
 
         <div className='hero-text'>
           <div>
-            <span className='stroke-text'>Shape </span>
-            <span>Your </span>
+          <span>Get fit in the </span>
+            <span className='stroke-text'>Gym </span>
+            
             </div> 
             <div> 
-              <span>Ideal Body</span> 
+            <span>Lose weight in the </span>
+            <span className='stroke-text'>kitchen </span>
             </div>
             <div >
               <span> in here we help you to get your best shape by providing the best exercises ,supplements, nutrition, and more ...</span>

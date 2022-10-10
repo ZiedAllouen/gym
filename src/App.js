@@ -9,6 +9,7 @@ import ExerciseDetail from './pages/ExerciseDetail';
 import Navbar from './components/ExercisePage/Navbar';
 import Footer from './components/ExercisePage/Footer';
 import Landing from './pages/Landing';
+import Nutrition from './pages/Nutrition';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Routes>
       <Route path ="/" element={<Landing/>} />
         <Route path ="/exercise" element={<Exercise/>} />
+        <Route path ="/nutrition" element={<Nutrition/>} />
         <Route path="/exercise/:id" element={<ExerciseDetail/>}/>
       </Routes>
       {/* <Footer/> */}

@@ -19,8 +19,8 @@ const Header = () => {
                 <Link to ="/exercise">
                     <img src={ex} alt='home' style ={{width:'46px' , height:'46px', }} />
                 </Link>
-                <Link to ="/">
-                    <img src={hs} alt='home' style ={{width:'50px' , height:'50px'}} />
+                <Link to ="/nutrition">
+                    <img src={bars} alt='home' style ={{width:'50px' , height:'50px'}} />
                 </Link>
                 <Link to ="/exercise">
                     <img src={ex} alt='home' style ={{width:'46px' , height:'46px'}} />

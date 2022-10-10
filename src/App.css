@@ -166,6 +166,9 @@ body {
   gap: 6rem;
   overflow: hidden;
   font-family: system-ui;
+  padding: 0px;
+  margin: 0px;
+  
 }
 
 .stroke-text{

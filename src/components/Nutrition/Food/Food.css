@@ -1,0 +1,33 @@
+.Food {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  padding: 25px;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-overflow: inherit;
+}
+
+
+.properties {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cacaca;
+  border-radius: 5px;
+}
