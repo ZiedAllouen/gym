@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    justify-content: space-between;
+  gap:40rem
 
 }
 .logo{
@@ -13,9 +13,9 @@
     gap:2rem;
     color:white
 }
-.header-menu>li:hover{
-    cursor: pointer;
-    color: var(--orange);
+.menu{
+    display: flex;
+    gap:2rem
 
 }
 
@@ -25,16 +25,13 @@
 @media screen and (max-width: 768px) {
     .header>:nth-child(2) {
         position: fixed;
-        right:2rem;
+        right:1rem;
         z-index: 99;
 
     }
-    .header-menu{
+    .menu{
         flex-direction: column;
-        background-color: var(--appColor);
-        padding: 2rem;
-        width: 10rem;
-        border-radius: 10px;
         z-index: 99;
     }
+
 }

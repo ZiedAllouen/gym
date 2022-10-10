@@ -46,7 +46,7 @@ const HeroBanner = () => {
   }
 
   return (
-    <Box sx={{ mt: { lg: '100px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px" backgroundIm>
+    <Box className='App' sx={{ mt: { lg: '100px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px" backgroundIm>
     <Typography color="#FF2625" fontWeight="600" fontSize="26px">Tam Fitness Club</Typography>
     <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px' } }} mb="23px" mt="30px" >
     “You shall gain, but you shall pay with <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Sweat"", "Blood"", "Vomit"" ]'><span className="wrap">{text}</span></span>  <br />

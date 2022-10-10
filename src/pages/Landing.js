@@ -9,6 +9,7 @@ import Footer from '../components/LandingPage/Footer/Footer';
 const LandingPage = () => {
   return (
     <div className='App'>
+      
         <Hero/>
         <Programs/>
         <Reasons/>
