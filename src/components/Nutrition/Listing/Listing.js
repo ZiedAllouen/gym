@@ -13,21 +13,17 @@ const Listing = ({ data, open }) => {
         <div className="listing__image-container">
           <img
             className="listing__image"
-            alt="real estate mansion"
+            alt=""
             src={imageUrl}
           />
         </div>
         <div className="listing__details">
-          {/* <div className="listing__type">For Sale</div> */}
+
           <div className="listing__row">
             <span className="listing__price">{title}</span>
           </div>
-          <div className="listing__row">
-            <span className="listing__address"><PinDropIcon fontSize='small'/>{address}</span>
-          </div>
-          <div className="listing__row">
-            
-          </div>
+
+
         </div>
       </div>
     </motion.div>

@@ -2,7 +2,7 @@
 import React, { useContext } from 'react';
 import "./Food.css";
 import Card from "../Card/Card";
-import { properties } from "../../../constants/data";
+import { properties,fats } from "../../../constants/data";
 
 import { Box, Typography } from '@mui/material';
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
@@ -47,7 +47,7 @@ function Food() {
       <hr/>
       <div className="properties">
       <ScrollMenu >
-        {properties.map((item) => (
+        {fats.map((item) => (
           <Card data={item} key={item.id} />
         ))}
         </ScrollMenu>
@@ -86,10 +86,6 @@ function Food() {
         </ScrollMenu>
       </div>
 
-
-      
-
-      
     </div>
   );
 }

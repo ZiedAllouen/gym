@@ -10,6 +10,7 @@ import Navbar from './components/ExercisePage/Navbar';
 import Footer from './components/ExercisePage/Footer';
 import Landing from './pages/Landing';
 import Nutrition from './pages/Nutrition';
+import Tips from './pages/Tips';
 
 const App = () => {
   return (
@@ -18,8 +19,10 @@ const App = () => {
       <Routes>
       <Route path ="/" element={<Landing/>} />
         <Route path ="/exercise" element={<Exercise/>} />
-        <Route path ="/nutrition" element={<Nutrition/>} />
+
         <Route path="/exercise/:id" element={<ExerciseDetail/>}/>
+        <Route path ="/nutrition" element={<Nutrition/>} />
+        <Route path ="/tips" element={<Tips/>} />
       </Routes>
       {/* <Footer/> */}
     </Box>

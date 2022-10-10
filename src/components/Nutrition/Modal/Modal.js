@@ -1,7 +1,8 @@
 import React from "react";
 import "./Modal.css";
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import PinDropIcon from '@material-ui/icons/PinDrop';
+import calorie from '../../../assets/calorie.png';
+import time from "../../../assets/hourglass.png";
+import weight from "../../../assets/weight-ma.png"
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 
@@ -9,9 +10,9 @@ const Modal = ({ data, close }) => {
   const {
     imageUrl,
     title,
-    address,
+    proteines,
     description,
-    number,
+    calories,
    
   } = data;
 
@@ -46,7 +47,7 @@ const Modal = ({ data, close }) => {
     >
       <motion.img
         className="modal__image"
-        alt="real estate mansion"
+        
         src={imageUrl}
         variants={imageVariants}
       ></motion.img>
@@ -55,10 +56,13 @@ const Modal = ({ data, close }) => {
           <span className="modal__price">{title}</span>
         </motion.div>
         <motion.div className="modal__row" variants={modalRowVariants}>
-          <span className="modal__address"><PinDropIcon fontSize='small'/> {address}</span>
+          <span className="modal__address"><img src={calorie} fontSize='small'/> {proteines}</span>
         </motion.div>
         <motion.div className="modal__row" variants={modalRowVariants}>
-          <span className="modal__address"><LocalPhoneIcon fontSize='small'/> {number}</span>
+          <span className="modal__address"><img src={time} fontSize='small'/> {calories}</span>
+        </motion.div>
+        <motion.div className="modal__row" variants={modalRowVariants}>
+          <span className="modal__address"><img src={weight} fontSize='small'/> {calories}</span>
         </motion.div>
         <motion.div className="modal__row" variants={modalRowVariants}>
           
