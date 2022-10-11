@@ -12,6 +12,7 @@ const Coaches = () => {
     <div className='Coaches'>
       <div className='left-c'>
         <span>Coaches</span>
+      
         <span className='stroke-text'>what</span>
         <span>they will <span className='stroke-text'>add</span> </span>
         <motion.span

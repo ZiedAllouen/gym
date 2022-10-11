@@ -35,7 +35,7 @@ const Hero = () => {
             <span className='stroke-text'>kitchen </span>
             </div>
             <div >
-              <span> in here we help you to get your best shape by providing the best exercises ,supplements, nutrition, and more ...</span>
+              <span> We help you to get your best shape by providing the best exercises ,supplements, nutrition, and more ...</span>
             </div>
         </div>
 
@@ -43,17 +43,18 @@ const Hero = () => {
       <div className='figures' >
         <div>
           <span>
-          <NumberCounter end={1300} start={1000} delay='4' preFix="+" />
+          <NumberCounter end={60} start={50} delay='4' preFix="+" />
              </span> 
-          <span>Exercises</span>
+          <span>Carb Source</span>
         </div>
         <div>
-          <span><NumberCounter end={1300} start={1000} delay='4' preFix="+" /> </span> 
-          <span>Advice</span>
+          <span><NumberCounter end={50} start={38} delay='4' preFix="+" /> </span> 
+          <span>Proteine Source</span>
         </div>
+
         <div>
-          <span><NumberCounter end={1300} start={1000} delay='4' preFix="+" /> </span> 
-          <span>Food</span>
+          <span><NumberCounter end={30} start={24} delay='4' preFix="+" /> </span> 
+          <span>Supplement</span>
         </div>
 
       </div>

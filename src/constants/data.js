@@ -12,10 +12,11 @@ export const properties = [
       id:2,
       title: 'Sardine',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
+        "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
       imageUrl: "https://images.pexels.com/photos/6149077/pexels-photo-6149077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      proteines:"  45-60 mn to get digested  ",
+      count:"  	24,62 g of protein in 100g  ",
+      calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:3,
@@ -360,9 +361,9 @@ export const properties = [
         id:3,
         title: 'does lifting prevent growth ?',
         description:
-          "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
+          "There's no evidence that weight lifting stunts growth,In fact, resistance training can help build coordination and strength in young athletes, and there's a strong push right now for young female athletes to lift weights in the hope that it may offer more injury prevention.",
         imageUrl: "https://images.pexels.com/photos/12890938/pexels-photo-12890938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        proteines:"  Borj Cédria, Tunisia",
+        proteines:"  'Carol Mack' D.P.T., C.S.C.S., strength coach and doctor of physical therapy.",
         calories:"+216 xxxxxxxx"
       },
     
@@ -418,7 +419,62 @@ export const properties = [
         description:
           "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
         imageUrl: "https://images.pexels.com/photos/7674483/pexels-photo-7674483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        proteines:"  Borj Cédria, Tunisia",
-        calories:"+216 xxxxxxxx"
+
+      },
+      {
+        id:10,
+        title: 'Steroids',
+        description:
+          "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
+        imageUrl: "https://images.unsplash.com/photo-1611689102192-1f6e0e52df0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+
+      },
+      {
+        id:11,
+        title: 'You MUST Train Until Failure ?',
+        description:
+          "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
+        imageUrl: "https://images.pexels.com/photos/3556660/pexels-photo-3556660.jpeg?auto=compress&cs=tinysrgb&w=600",
+
+      },
+      {
+        id:12,
+        title: 'are supplements necessary for muscle growth ?',
+        description:
+          "supplements are not necessary to build muscles you can take them to reach your daily protein intake when you are not able to do it with real food . 'Real food is the key '.",
+        imageUrl: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nvb3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        proteines:"  'Rich Piana'",
+      },
+      {
+        id:13,
+        title: 'Low Reps Are For Size & High Reps Are For Cutting',
+        description:
+          "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
+        imageUrl: "https://images.pexels.com/photos/12890815/pexels-photo-12890815.jpeg?auto=compress&cs=tinysrgb&w=600",
+
+      },
+      {
+        id:14,
+        title: 'drop sets / super sets / giant set / fst7 ',
+        description:
+          "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
+        imageUrl: "https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=600",
+
+      },
+      {
+        id:15,
+        title: 'Eating more Than 30grams of Protein Per Meal is Pointless',
+        description:
+          "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
+        imageUrl: "https://images.pexels.com/photos/1927383/pexels-photo-1927383.jpeg?auto=compress&cs=tinysrgb&w=600",
+
+      },
+      {
+        id:16,
+        title: 'Don’t Train Without Stretching First ',
+        description:
+          "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
+        imageUrl: "https://images.pexels.com/photos/209969/pexels-photo-209969.jpeg?auto=compress&cs=tinysrgb&w=600",
+
       },
     ];

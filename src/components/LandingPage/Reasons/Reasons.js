@@ -28,22 +28,22 @@ const Reasons = () => {
             <div className='details-r'>
             <div>
               <img src={barbell} />
-              <span>best exercises selected</span>
+              <span>more than 1300 detailed exercise </span>
             </div>
 
             <div>
               <img src={salad} />
-              <span>infos about food</span>
+              <span>well-chosen information and advice from international sources.</span>
             </div>
 
             <div>
               <img src={coach} />
-              <span>over 20 coach suggested </span>
+              <span>Over 20 certified coach with tons of experience and information </span>
             </div>
 
             <div>
               <img src={supplement} />
-              <span>supps</span>
+              <span>all information about supplements </span>
             </div>
 
           </div>

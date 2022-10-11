@@ -75,9 +75,7 @@ function Food() {
         </ScrollMenu>
       </div>
 
-      
-      <div className='blur blur-f-12'></div>
-        <div className='blur blur-f-22'></div>
+
     </div>
     
   );

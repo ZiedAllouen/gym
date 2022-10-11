@@ -33,7 +33,7 @@ const Hero = () => {
               <span>Ideal Body</span> 
             </div>
             <div >
-              <span> in here we help you to get your best shape by providing the best exercises ,supplements, nutrition, and more ...</span>
+              <span> We help you to get your best shape by providing the best exercises ,supplements, nutrition, and more ...</span>
             </div>
         </div>
 
@@ -46,12 +46,12 @@ const Hero = () => {
           <span>Exercises</span>
         </div>
         <div>
-          <span><NumberCounter end={1300} start={1000} delay='4' preFix="+" /> </span> 
+          <span><NumberCounter end={1000} start={800} delay='4' preFix="+" /> </span> 
           <span>Advice</span>
         </div>
         <div>
-          <span><NumberCounter end={1300} start={1000} delay='4' preFix="+" /> </span> 
-          <span>Food</span>
+          <span><NumberCounter end={1100} start={990} delay='4' preFix="+" /> </span> 
+          <span>nutrition information</span>
         </div>
 
       </div>

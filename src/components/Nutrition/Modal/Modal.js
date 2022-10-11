@@ -13,6 +13,7 @@ const Modal = ({ data, close }) => {
     proteines,
     description,
     calories,
+    count
    
   } = data;
 
@@ -56,13 +57,13 @@ const Modal = ({ data, close }) => {
           <span className="modal__price">{title}</span>
         </motion.div>
         <motion.div className="modal__row" variants={modalRowVariants}>
-          <span className="modal__address"><img src={calorie} fontSize='small'/> {proteines}</span>
+          <span className="modal__address"><img src={calorie} fontSize='small'/> {calories}</span>
         </motion.div>
         <motion.div className="modal__row" variants={modalRowVariants}>
-          <span className="modal__address"><img src={time} fontSize='small'/> {calories}</span>
+          <span className="modal__address"><img src={time} fontSize='small'/> { proteines}</span>
         </motion.div>
         <motion.div className="modal__row" variants={modalRowVariants}>
-          <span className="modal__address"><img src={weight} fontSize='small'/> {calories}</span>
+          <span className="modal__address"><img src={weight} fontSize='small'/> {count}</span>
         </motion.div>
         <motion.div className="modal__row" variants={modalRowVariants}>
           

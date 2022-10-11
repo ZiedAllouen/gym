@@ -61,7 +61,9 @@ const ModalT = ({ data, close }) => {
           variants={modalRowVariants}
         >
           <p className="modal__description">{description}</p>
-          
+          <motion.div className="modal__row" variants={modalRowVariants}>
+          <span className="modal__address"> {proteines}</span>
+        </motion.div>
         </motion.div>
         <motion.button
           className="modal__close-wrapper"
