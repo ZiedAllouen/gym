@@ -29,7 +29,7 @@ const Header = () => {
                 </Link></Tooltip>
                 <Tooltip title="Tips & Myths" arrow>
                 <Link to ="/tips">
-                    <img src={tips} alt='home' style ={{width:'46px' , height:'46px'}} />
+                    <img src={tips} alt='home' style ={{width:'50px' , height:'50px'}} />
                 </Link></Tooltip>
         </div>
     </div>

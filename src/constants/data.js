@@ -441,7 +441,7 @@ export const properties = [
         id:12,
         title: 'are supplements necessary for muscle growth ?',
         description:
-          "supplements are not necessary to build muscles you can take them to reach your daily protein intake when you are not able to do it with real food . 'Real food is the key '.",
+          "supplements are not necessary to build muscles you can take them to reach your daily protein intake when you are not able to do it with real food ,But always keep in mind that 'Real food is the key '.",
         imageUrl: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nvb3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         proteines:"  'Rich Piana'",
       },

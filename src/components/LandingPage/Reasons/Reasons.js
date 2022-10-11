@@ -38,7 +38,7 @@ const Reasons = () => {
 
             <div>
               <img src={coach} />
-              <span>Over 20 certified coach with tons of experience and information </span>
+              <span>we suggest to you certified coaches with tons of experience and information </span>
             </div>
 
             <div>

@@ -13,8 +13,8 @@ const Home = () => {
     <div className='App'>
       
       <HeroBanner/>
-      {/* <SearchExercise  setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
-      <Exercises setExercises={setExercises} bodyPart={bodyPart} exercises={exercises}/> */}
+      <SearchExercise  setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
+      <Exercises setExercises={setExercises} bodyPart={bodyPart} exercises={exercises}/>
     </div>
   )
 }

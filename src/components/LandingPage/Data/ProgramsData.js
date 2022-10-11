@@ -38,7 +38,7 @@ export const programsData = [
       ,
       heading: "Fat Burning & Muscles  Building",
       details:
-        "This feature is suitable for you who wants to get rid of your fat and develop their muscles.",
+        "This feature is suitable for you who wants to get rid of your fat and develop your muscles.",
     },
     {
       image: <svg width="20" height="16" viewBox="0 0 20 16"  xmlns="http://www.w3.org/2000/svg">
