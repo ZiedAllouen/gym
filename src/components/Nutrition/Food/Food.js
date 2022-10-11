@@ -2,9 +2,9 @@
 import React, { useContext } from 'react';
 import "./Food.css";
 import Card from "../Card/Card";
-import { properties,fats } from "../../../constants/data";
+import { properties,fats,carbs,supplements } from "../../../constants/data";
 
-import { Box, Typography } from '@mui/material';
+import {  Typography } from '@mui/material';
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import RightArrowIcon from '../../../assets/arrow-right.png';
 import LeftArrowIcon from '../../../assets/left.png';
@@ -58,7 +58,7 @@ function Food() {
       <hr/>
       <div className="properties">
       <ScrollMenu >
-        {properties.map((item) => (
+        {carbs.map((item) => (
           <Card data={item} key={item.id} />
         ))}
         </ScrollMenu>
@@ -69,24 +69,17 @@ function Food() {
       <hr/>
       <div className="properties">
       <ScrollMenu >
-        {properties.map((item) => (
+        {supplements.map((item) => (
           <Card data={item} key={item.id} />
         ))}
         </ScrollMenu>
       </div>
 
-      <hr/>
-      <div className='title'>Tips & tricks</div>
-      <hr/>
-      <div className="properties">
-      <ScrollMenu >
-        {properties.map((item) => (
-          <Card data={item} key={item.id} />
-        ))}
-        </ScrollMenu>
-      </div>
-
+      
+      <div className='blur blur-f-12'></div>
+        <div className='blur blur-f-22'></div>
     </div>
+    
   );
 }
 

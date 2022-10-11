@@ -20,7 +20,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
 ::-webkit-scrollbar {
@@ -31,22 +30,4 @@
 ::-webkit-scrollbar-thumb {
   background-color: #cacaca;
   border-radius: 5px;
-}
-
-.blur-f-12{
-  top: 70rem;
-  right: 8%;
-  width: 20rem;
-  height: 12rem; 
-  filter: blur(200px);
-  background:red;
-  z-index: 0;
-}
-.blur-f-22{
-  top: 100rem;
-  left: 15%;
-  width: 20rem;
-  height: 12rem; 
-  filter: blur(200px);
-  background:rgb(255,115,0);
 }
