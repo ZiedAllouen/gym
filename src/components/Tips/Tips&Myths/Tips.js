@@ -2,7 +2,7 @@
 import React, { useContext } from 'react';
 import "./Tips.css";
 import Card from "../Card/CardT";
-import { properties,tips} from "../../../constants/data";
+import { tips} from "../../../constants/data";
 
 
 function Food() {

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Josefin Sans';
+  font-family: 'M PLUS Rounded 1c';
   background-color: #FFFAFB;
 }
 
@@ -165,7 +165,7 @@ body {
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
-  font-family: system-ui;
+  font-family: M PLUS Rounded 1c;
   padding: 0px;
   margin: 0px;
   
