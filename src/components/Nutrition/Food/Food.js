@@ -6,28 +6,8 @@ import { properties,fats,carbs,supplements } from "../../../constants/data";
 
 import {  Typography } from '@mui/material';
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
-import RightArrowIcon from '../../../assets/arrow-right.png';
-import LeftArrowIcon from '../../../assets/left.png';
 
-const LeftArrow = () => {
-  const { scrollPrev } = useContext(VisibilityContext);
 
-  return (
-    <Typography onClick={() => scrollPrev()} className="right-arrow">
-      <img src={LeftArrowIcon} alt="right-arrow" />
-    </Typography>
-  );
-};
-
-const RightArrow = () => {
-  const { scrollNext } = useContext(VisibilityContext);
-
-  return (
-    <Typography onClick={() => scrollNext()} className="left-arrow">
-      <img src={RightArrowIcon} alt="right-arrow" />
-    </Typography>
-  );
-};
 
 function Food() {
   return (

@@ -18,7 +18,10 @@
     gap:2rem
 
 }
-
+.nav:hover{
+    background-color: var(--planCard);
+    cursor: pointer;
+}
 
 /* responsive */
 

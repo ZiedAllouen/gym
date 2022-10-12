@@ -2,7 +2,7 @@ import kifeh from '../../../assets/kifeh.png'
 import oussema from '../../../assets/oussema.png'
 import amin from '../../../assets/amin.png'
 import rami from '../../../assets/rami.png'
-import sami from '../../../assets/sami.png'
+import sami from '../../../assets/sami.jpg'
 
 export const CoachesData = [
     {
@@ -33,7 +33,7 @@ export const CoachesData = [
     {
       image :sami,
       review:" Known as 'Natty Beast' live the trip with him as a natty bodybuilder in his road to the international.",
-      name: 'Sami',
+      name: 'Sami Mansouri',
       status: "WNBF Physique athlete"
     }
   ];

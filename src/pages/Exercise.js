@@ -10,7 +10,7 @@ const Home = () => {
   const [exercises,setExercises] = useState([]);
   console.log(bodyPart)
   return (
-    <div className='App'>
+    <div >
       
       <HeroBanner/>
       <SearchExercise  setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />

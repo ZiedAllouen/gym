@@ -15,9 +15,9 @@ const Header = () => {
     <div className='header'>
       <img src={logo} alt='' className='logo'/>
       <div className='menu'>
-      <Tooltip title="Home" arrow>
-              <Link to ="/">
-                    <img src={gym} alt='home' style ={{width:'50px' , height:'50px', }} />
+                <Tooltip title="Home" arrow >
+                <Link to ="/">
+                    <img  src={gym} alt='home' style ={{width:'46px' , height:'46px', }} />
                 </Link></Tooltip>
                 <Tooltip title="Exercises" arrow>
                 <Link to ="/exercise">
@@ -25,7 +25,7 @@ const Header = () => {
                 </Link></Tooltip>
                 <Tooltip title="Nutrition" arrow>
                 <Link to ="/nutrition">
-                    <img src={diet} alt='home' style ={{width:'50px' , height:'50px'}} />
+                    <img src={diet} alt='home' style ={{width:'46px' , height:'46px'}} />
                 </Link></Tooltip>
                 <Tooltip title="Tips & Myths" arrow>
                 <Link to ="/tips">

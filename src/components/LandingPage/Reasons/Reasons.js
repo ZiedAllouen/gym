@@ -4,10 +4,8 @@ import image1 from '../../../assets/image1.jpg';
 import image2 from '../../../assets/image2.png';
 import image3 from '../../../assets/image3.png';
 import image4 from '../../../assets/image4.png';
-import barbell from '../../../assets/barbell.png';
-import coach from '../../../assets/coach.png';
-import salad from '../../../assets/salad.png';
-import supplement from '../../../assets/supplement.png';
+import tick from '../../../assets/check-mark.png';
+
 const Reasons = () => {
   return (
     <div className='Reasons' >
@@ -27,22 +25,22 @@ const Reasons = () => {
           
             <div className='details-r'>
             <div>
-              <img src={barbell} />
+              <img src={tick} />
               <span>more than 1300 detailed exercise </span>
             </div>
 
             <div>
-              <img src={salad} />
+              <img src={tick} />
               <span>well-chosen information and advice from international sources.</span>
             </div>
 
             <div>
-              <img src={coach} />
+              <img src={tick} />
               <span>we suggest to you certified coaches with tons of experience and information </span>
             </div>
 
             <div>
-              <img src={supplement} />
+              <img src={tick} />
               <span>all information about supplements </span>
             </div>
 

@@ -4,8 +4,8 @@ import { Box, Typography } from '@mui/material';
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import ExerciseCard from './ExerciseCard';
 import BodyPart from './BodyPart';
-import RightArrowIcon from '../../assets/right.png';
-import LeftArrowIcon from '../../assets/left.png';
+import RightArrowIcon from '../../assets/arrow-right.png';
+import LeftArrowIcon from '../../assets/arrow-left.png';
 
 const LeftArrow = () => {
   const { scrollPrev } = useContext(VisibilityContext);

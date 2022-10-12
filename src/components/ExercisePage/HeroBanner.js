@@ -126,7 +126,7 @@ const HeroBanner = () => {
           <span>100 bpm</span>
         </motion.div>
         {/* hero images */}
-        <img src={HeroImg} className='hero-image'/>
+        <img src={HeroImg} className='hero-image1'/>
         <motion.img 
         initial={{right:'11rem'}}
         whileInView={{right:"20rem"}}
