@@ -6,8 +6,7 @@ import { Box } from '@mui/material';
 import './App.css';
 import Exercise from './pages/Exercise';
 import ExerciseDetail from './pages/ExerciseDetail';
-import Navbar from './components/ExercisePage/Navbar';
-import Footer from './components/ExercisePage/Footer';
+
 import Landing from './pages/Landing';
 import Nutrition from './pages/Nutrition';
 import Tips from './pages/Tips';

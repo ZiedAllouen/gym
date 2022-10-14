@@ -18,7 +18,7 @@ const HeroBanner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [ 'Sweat”', 'Blood”', 'Vomit”' ];
-  const period = 1000;
+  const period = 700;
 
   useEffect(() => {
     let ticker = setInterval(() => {

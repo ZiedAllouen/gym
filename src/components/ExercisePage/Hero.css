@@ -185,7 +185,30 @@ width: 15rem;
     height: 30rem;
     left:0;
 }
-
+.blur-e{
+    top: 60%;
+    right: 0%;
+    width: 90rem;
+    height: 80rem; 
+    
+    background:rgb(240, 120, 0);
+    position: absolute;
+    border-radius: 10%;
+    filter:blur(150px);
+    z-index: -1;
+}
+.blur-m{
+    top: 73%;
+    left: 0%;
+    width: 90rem;
+    height: 30rem; 
+  
+    background:rgb(113, 111, 111);
+    position: absolute;
+    border-radius: 10%;
+    filter:blur(150px);
+    z-index: -1;
+}
 /* responsive */
 @media screen and (max-width:768px) {
 .hero{

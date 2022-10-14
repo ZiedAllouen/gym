@@ -13,7 +13,7 @@ export const properties = [
       title: 'Sardine',
       description:
         "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
-      imageUrl: "https://images.pexels.com/photos/6149077/pexels-photo-6149077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       proteines:"  45-60 mn to get digested  ",
       count:"  	24,62 g of protein in 100g  ",
       calories:"100 grams of fresh sardines bring 129 calories"
@@ -158,7 +158,7 @@ export const properties = [
       title: 'Sardine',
       description:
         "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/6149077/pexels-photo-6149077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       proteines:"  Borj Cédria, Tunisia",
       calories:"+216 xxxxxxxx"
     },

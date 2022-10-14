@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react';
 import {Box,Stack,Button,TextField,Typography} from '@mui/material';
 import { exerciseOptions,fetchData } from '../../utils/fetchData';
 import HorizontalScrollbar from './HorizontalScrollbar'
-
+import './Hero.css'
 
 const SearchExercise = ({setExercises,BodyPart,setBodyPart}) => {
   const [search, setSearch] = useState('');
@@ -47,6 +47,9 @@ Exercices You Should Try
           search
         </Button>
       </Box>
+      
+      <div className=' blur-m'></div>
+      <div className=' blur-e'></div>
       <Box sx={{position:'relative',width:'100%',p:'20px'}}>
         <HorizontalScrollbar data={bodyParts}
         BodyPart={BodyPart} setBodyPart={setBodyPart} isBodyParts />

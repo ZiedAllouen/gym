@@ -81,6 +81,14 @@ margin-top: 0.7rem;
     filter: blur(200px);
     background:rgb(255,115,0);
 }
+.blur-e{
+    bottom: 270;
+    right: 0;
+    width: 26rem;
+    height: 18rem; 
+    filter: blur(200px);
+    background:rgb(16, 16, 15);
+}
 
 
 /* responsive */
