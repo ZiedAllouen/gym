@@ -74,7 +74,7 @@ const HeroBanner = () => {
 
         <div className='hero-text'>
           <div>
-          <span>You shall </span>
+          <span>”You shall </span>
             <span className='stroke-text'>Gain </span> 
             <span>but</span>
             </div> 
