@@ -49,7 +49,7 @@ Exercices You Should Try
       </Box>
       
       <div className=' blur-m'></div>
-      <div className=' blur-e'></div>
+      
       <Box sx={{position:'relative',width:'100%',p:'20px'}}>
         <HorizontalScrollbar data={bodyParts}
         BodyPart={BodyPart} setBodyPart={setBodyPart} isBodyParts />

@@ -8,11 +8,11 @@ const Footer = () => {
         <hr/>
         <div className='footer'>
         <div className='logo-f'>
-                <img src={logo} />
+                <img src={logo} alt="" />
         </div>
             <a rel="noopener noreferrer" href="https://www.linkedin.com/in/zied-allouen" target="_blank">
                 <div className='linkedin'>
-                <img src={linkedin} />
+                <img src={linkedin} alt="" />
                 </div>
             </a>
         </div>
