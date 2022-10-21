@@ -3,10 +3,11 @@ export const properties = [
       id:1,
       title: 'Eggs',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+        "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+      imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      proteines:"  45-60 mn to get digested  ",
+      count:"  	24,62 g of protein in 100g  ",
+      calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:2,
@@ -22,66 +23,73 @@ export const properties = [
       id:3,
       title: 'Tuna',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/3296392/pexels-photo-3296392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
   
     {
       id:4,
       title: 'Turkey',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/3688/food-dinner-lunch-chicken.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:5,
       title: 'Beaf',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/12645502/pexels-photo-12645502.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:6,
       title: 'Shrimps',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/3295856/pexels-photo-3295856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
   
     {
       id:7,
       title: 'Cottage cheese',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/4198021/pexels-photo-4198021.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:8,
       title: 'Greek Yogurt',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/8805123/pexels-photo-8805123.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:9,
       title: 'Salomon',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/3296280/pexels-photo-3296280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
   ];
 
@@ -90,94 +98,100 @@ export const properties = [
       id:1,
       title: 'Egg Yolk',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/806457/pexels-photo-806457.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:2,
       title: 'Peanut',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/4202955/pexels-photo-4202955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:3,
       title: 'Tuna',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/3296392/pexels-photo-3296392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
   
     {
       id:4,
-      title: 'Olive oil',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:5,
       title: 'Avocado',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/4144459/pexels-photo-4144459.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:6,
-      title: 'Chia seeds',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/691175/pexels-photo-691175.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
   
     {
       id:7,
       title: 'Almond',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/4033329/pexels-photo-4033329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:8,
       title: 'Sardine',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:9,
       title: 'Salomon',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/3296280/pexels-photo-3296280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },    {
       id:10,
       title: 'Shrimps',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/3295856/pexels-photo-3295856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
   ];
 
@@ -186,58 +200,62 @@ export const properties = [
       id:1,
       title: 'Oats',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/8681420/pexels-photo-8681420.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:2,
       title: 'Pasta',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/6287348/pexels-photo-6287348.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:3,
       title: 'Rice',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/4110256/pexels-photo-4110256.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
   
     {
       id:4,
       title: 'whole wheat bread',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/10202998/pexels-photo-10202998.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:5,
       title: 'Bananas',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/1093038/pexels-photo-1093038.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
     {
       id:6,
       title: 'Sweet potatoes',
       description:
-        "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-      imageUrl: "https://images.pexels.com/photos/5959859/pexels-photo-5959859.jpeg?auto=compress&cs=tinysrgb&w=600",
-      proteines:"  Borj Cédria, Tunisia",
-      
-      calories:"+216 xxxxxxxx"
+      "one of the best sources of proteins if it's not the best. since it's cheap, Packed with calcium, Protein rich, Lower in Mercury than other fish, High in selenium and Rich in vitamin D .",
+    imageUrl: "https://images.unsplash.com/photo-1535424921017-85119f91e5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    proteines:"  45-60 mn to get digested  ",
+    count:"  	24,62 g of protein in 100g  ",
+    calories:"100 grams of fresh sardines bring 129 calories"
     },
   
     {
