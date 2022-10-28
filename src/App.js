@@ -13,7 +13,6 @@ import Tips from './pages/Tips';
 const App = () => {
   return (
     <Box width="400px" sx={{width:{xl:'1488px'}}} m="auto">
-      {/* <Navbar/> */}
       <Routes>
       <Route path ="/" element={<Landing/>} />
         <Route path ="/exercise" element={<Exercise/>} />
