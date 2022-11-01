@@ -57,8 +57,6 @@ const HeroBanner = () => {
   return (
     <div className='App' >
 
-
-
     <div className='hero'>
       <div className='blur hero-blur'></div>
       <div className='left-h'>
