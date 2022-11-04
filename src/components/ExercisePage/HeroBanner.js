@@ -56,7 +56,6 @@ const HeroBanner = () => {
   const mobile=window.innerWidth <= 768 ? true : false;
   return (
     <div className='App' >
-
     <div className='hero'>
       <div className='blur hero-blur'></div>
       <div className='left-h'>
@@ -104,7 +103,6 @@ const HeroBanner = () => {
           <span><NumberCounter end={130} start={100} delay='4' preFix="+" /> </span> 
           <span>cardio Exercises</span>
         </div>
-
       </div>
       {/* hero buttons */}
       <div className='hero-buttons'>
